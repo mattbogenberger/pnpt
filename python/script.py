@@ -57,7 +57,7 @@ def square_root(x):
 
 square_root(64)
 
-def nl():
+def nl(): # function for printing a newline to save typing
     print('\n')
 
 nl()
