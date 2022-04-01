@@ -61,3 +61,17 @@ def nl(): # function for printing a newline to save typing
     print('\n')
 
 nl()
+
+# Boolean expressions (True or False)
+print("Boolean expressions:")
+
+bool1 = True
+bool2 = 3*3 == 9
+bool3 = False
+bool4 = 3*3 != 9
+
+print(bool1,bool2,bool3,bool4)
+print(type(bool1))
+
+bool5 = "True" # True is not the same value as "True"
+print(type(bool5))
