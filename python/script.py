@@ -1,6 +1,9 @@
 #!/bin/python3
 
 # Variables and Methods
+from hamcrest import greater_than_or_equal_to, less_than, less_than_or_equal_to
+
+
 quote = "I just took a DNA test, turns out I'm 100% that bitch."
 print(quote.upper()) # uppercase
 print(quote.lower()) # lowercase
@@ -75,3 +78,20 @@ print(type(bool1))
 
 bool5 = "True" # True is not the same value as "True"
 print(type(bool5))
+
+nl()
+# Relational and boolean operators
+greater_than = 7 > 5
+less_than = 5 < 7
+greater_than_or_equal_to = 7 >= 7
+less_than_or_equal_to = 7 <= 7
+# print(greater_than,less_than,greater_than_or_equal_to,less_than_or_equal_to)
+
+test_and = (7 > 5) and (5 < 7) # True
+test_and2 = (7 > 5) and (5 > 7) # False
+test_or = (7 > 5) or (5 < 7) # True
+test_or2 = (7 > 5) or (5 > 7) # True
+# print(test_and,test_and2,test_or,test_or2)
+
+test_not = not True # False
+# print(test_not)
