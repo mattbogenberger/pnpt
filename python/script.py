@@ -142,3 +142,8 @@ print(movies)
 
 movies.pop(0)
 print(movies)
+
+nl()
+# Tuples - Do not change; have parentheses ()
+grades = ("A", "B", "C", "D", "F")
+print(grades[1])
