@@ -147,3 +147,19 @@ nl()
 # Tuples - Do not change; have parentheses ()
 grades = ("A", "B", "C", "D", "F")
 print(grades[1])
+
+nl()
+# Looping
+
+# For loops - start to finish of an iterate
+vegetables = ["cucumber", "spinach", "cabbage"]
+for x in vegetables:
+    print(x)
+
+# While loops - execute as long as true
+
+i = 1
+
+while i < 10:
+    print(i)
+    i += 1
